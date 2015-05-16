@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(images/Background.jpg);
+	background-size:  cover;
+	background-repeat:no-repeat;
+}
+
+td, th { 
+                text-align: center;
+                vertical-align:middle;
+                border: 1px;
+                border-right: solid thin black;
+                border-left: solid thin black;
+                border-bottom: solid thick black;
+                border-top: solid thin black;
+                border-radius: 1em 1em 1em 1em;
+                }
+
+a:link:link {/* unvisited link */
+	color: #F01111; /*red*/
+	text-decoration: none; }
+a:link:visited {/* visited link */
+	color: #F0F011;
+	text-decoration: none; }
+a:link:hover {/* mouse over link */
+	color: #F07211;
+	text-decoration: underline; }
+a:link:active {/* selected link */
+	color: #F0C011;
+	text-decoration: underline; }
+
+nav{
+	position: fixed;
+	float: left;
+	width: 10em;
+	padding-bottom: 2em;
+}
+
+nav p{
+	margin-left: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-left: 1em;
+	background-color: #FFFFCC;
+	border-right: solid thin black;
+	border-left: solid thin black;
+	border-bottom: solid thick black;
+	border-top: solid thin black;
+	border-radius: 1em 4em 1em 4em;
+}
+
+nav a{
+	text-decoration: none;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+}
+
+input[type="text"]{
+	border-right: solid thin black;
+	border-left: solid thin black;
+	border-bottom: solid thick black;
+	border-top: solid thin black;
+	padding-left: 12px;
+	padding-right:12px;
+	border-radius: 2em 6em 2em 6em;
+}
+
+header{
+        background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	height: 130px; 
+	text-align:center;
+	font-size:170%;
+	text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;
+	border-right: solid thin black;
+	border-left: solid thin black;
+	border-bottom: solid thick black;
+	border-top: solid thin black;
+	border-radius: 1em 4em 1em 4em;
+}
+
+h3{
+	font-size:125%;
+	text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;
+}
+
+td{
+text-align: center;
+vertical-align: middle;  
+}
+
+main{
+margin-left: 11em;
+padding-left: 1em;
+}
+
+footer{
+margin-left: 11em;
+padding-left: 1em;
+}
+
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}
